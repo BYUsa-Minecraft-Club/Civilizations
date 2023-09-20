@@ -1,0 +1,5 @@
+{
+  "name": "Farmer",
+  "requires": "civilizations:hidden/farming",
+  "color": "#FFFFFF"
+}

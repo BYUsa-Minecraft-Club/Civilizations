@@ -1,0 +1,5 @@
+{
+  "name": "Crafter",
+  "requires": "civilizations:hidden/crafting",
+  "color": "#FFFFFF"
+}

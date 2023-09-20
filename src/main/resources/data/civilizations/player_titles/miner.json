@@ -1,0 +1,5 @@
+{
+  "name": "Miner",
+  "requires": "minecraft:story/mine_diamond",
+  "color": "#FFFFFF"
+}

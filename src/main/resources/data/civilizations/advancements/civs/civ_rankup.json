@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "frame": "task",
+    "title": "Getting somewhere",
+    "description": "Rank up your civ",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/create_civ",
+  "criteria": {
+    "rankup": {
+      "trigger": "civilizations:owned_civ_rank",
+      "conditions": {
+        "civRank": "manor"
+      }
+    }
+  },
+  "requirements": [["rankup"]],
+  "rewards": {
+    "experience": 30
+  }
+}

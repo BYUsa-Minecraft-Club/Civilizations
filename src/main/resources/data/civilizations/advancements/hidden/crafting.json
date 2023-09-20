@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{
+          "count": {
+            "min": 1,
+            "max": 64
+          },
+          "items": ["minecraft:crafting_table"]
+        }]
+      }
+    }
+  },
+  "requirements": [["crafting_table"]]
+}

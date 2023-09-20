@@ -1,0 +1,5 @@
+{
+  "name": "Civilian",
+  "requires": "civilizations:civs/join_civ",
+  "color": "#FFFFFF"
+}

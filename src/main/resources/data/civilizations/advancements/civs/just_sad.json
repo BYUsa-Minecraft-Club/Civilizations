@@ -1,0 +1,63 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_concrete"
+    },
+    "frame": "task",
+    "title": "No",
+    "description": "Have your request denied",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "civilizations:civs/root",
+  "criteria": {
+    "deniedadd": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "add"
+      }
+    },
+    "deniedcreate": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "create"
+      }
+    },
+    "deniedinvite": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "invite"
+      }
+    },
+    "deniedjoin": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "join"
+      }
+    },
+    "deniedjudge": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "judge"
+      }
+    },
+    "deniedrankup": {
+      "trigger": "civilizations:request_denied",
+      "conditions": {
+        "type": "rankup"
+      }
+    }
+  },
+  "requirements": [
+    ["deniedadd"],
+    ["deniedcreate"],
+    ["deniedinvite"],
+    ["deniedjoin"],
+    ["deniedjudge"],
+    ["deniedrankup"]
+  ],
+  "rewards": {
+    "experience": 30
+  }
+}

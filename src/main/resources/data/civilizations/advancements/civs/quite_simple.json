@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone_block"
+    },
+    "frame": "task",
+    "title": "It's actually quite simple",
+    "description": "Build a fancy redstone build",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/first_build",
+  "criteria": {
+    "built_redstone": {
+      "trigger": "civilizations:awarded",
+      "conditions": {
+        "name": "redstoner"
+      }
+    }
+  },
+  "requirements": [["built_redstone"]],
+  "rewards": {
+    "experience": 30
+  }
+}

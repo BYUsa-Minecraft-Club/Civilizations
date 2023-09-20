@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "frame": "task",
+    "title": "Just the beginning",
+    "description": "Join your first civ",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/root",
+  "criteria": {
+    "joined": {
+      "trigger": "civilizations:joined_civ",
+      "conditions": {}
+    }
+  },
+  "requirements": [["joined"]],
+  "rewards": {
+    "experience": 30
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "frame": "task",
+    "title": "I'm the leader",
+    "description": "Create your own civ",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/root",
+  "criteria": {
+    "created_civ": {
+      "trigger": "civilizations:request_accepted",
+      "conditions": {
+        "type": "create"
+      }
+    }
+  },
+  "requirements": [["created_civ"]],
+  "rewards": {
+    "experience": 30
+  }
+}

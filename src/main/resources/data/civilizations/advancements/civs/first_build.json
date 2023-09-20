@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "frame": "goal",
+    "title": "This is my dirt hut",
+    "description": "Create your first build",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/root",
+  "criteria": {
+    "build_judged": {
+      "trigger": "civilizations:request_accepted",
+      "conditions": {
+        "type": "create"
+      }
+    }
+  },
+  "requirements": [["build_judged"]],
+  "rewards": {
+    "experience": 30
+  }
+}

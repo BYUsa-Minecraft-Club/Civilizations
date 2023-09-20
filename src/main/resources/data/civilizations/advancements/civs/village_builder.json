@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "frame": "task",
+    "title": "This is my dirt village",
+    "description": "Create your tenth build",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/first_build",
+  "criteria": {
+    "built_ten": {
+      "trigger": "civilizations:builds",
+      "conditions": {
+        "builds": 10
+      }
+    }
+  },
+  "requirements": [["built_ten"]],
+  "rewards": {
+    "experience": 30
+  }
+}

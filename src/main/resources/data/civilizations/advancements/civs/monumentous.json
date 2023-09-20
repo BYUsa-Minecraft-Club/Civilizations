@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_andesite"
+    },
+    "frame": "challenge",
+    "title": "This is my dirt monument",
+    "description": "Create a monument build",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/first_build",
+  "criteria": {
+    "built_monument": {
+      "trigger": "civilizations:awarded",
+      "conditions": {
+        "name": "monumentous"
+      }
+    }
+  },
+  "requirements": [["built_monument"]],
+  "rewards": {
+    "experience": 30
+  }
+}

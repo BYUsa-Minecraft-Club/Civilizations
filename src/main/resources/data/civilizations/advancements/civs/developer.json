@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:command_block"
+    },
+    "frame": "challenge",
+    "title": "I made the thing",
+    "description": "Be that one guy",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "civilizations:civs/root",
+  "criteria": {
+    "developer": {
+      "trigger": "civilizations:developer",
+      "conditions": {}
+    }
+  },
+  "requirements": [["developer"]],
+  "rewards": {
+    "experience": 0
+  }
+}

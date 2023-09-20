@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass"
+    },
+    "frame": "challenge",
+    "title": "This is my dirt city",
+    "description": "Create your fiftieth build",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "civilizations:civs/village_builder",
+  "criteria": {
+    "built_fifty": {
+      "trigger": "civilizations:builds",
+      "conditions": {
+        "builds": 50
+      }
+    }
+  },
+  "requirements": [["built_fifty"]],
+  "rewards": {
+    "experience": 30
+  }
+}

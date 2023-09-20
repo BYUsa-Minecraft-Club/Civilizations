@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bricks"
+    },
+    "title": "Civilizations",
+    "frame": "task",
+    "background": "minecraft:textures/block/stone_bricks.png",
+    "description": "You're running my civs mod!",
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": { "tick": {
+    "trigger": "minecraft:tick"
+  } },
+  "requirements": [[ "tick" ]]
+}

@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "showercurtain.civilizations.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "server": [
+        "ServerCommandSourceMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "mixins": [
+        "PlayerAdvancementTrackerMixin"
+    ]
+}

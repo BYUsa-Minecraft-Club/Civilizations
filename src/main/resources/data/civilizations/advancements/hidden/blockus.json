@@ -1,0 +1,92 @@
+{
+  "criteria": {
+    "used_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bricks"
+      }
+    },
+    "used_stone_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:stone_bricks"
+      }
+    },
+    "used_deepslate_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:deepslate_bricks"
+      }
+    },
+    "used_cracked_deepslate_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cracked_deepslate_bricks"
+      }
+    },
+    "used_cracked_stone_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cracked_stone_bricks"
+      }
+    },
+    "used_endstone_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:end_stone_bricks"
+      }
+    },
+    "used_mud_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:mud_bricks"
+      }
+    },
+    "used_nether_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:nether_bricks"
+      }
+    },
+    "used_cracked_nether_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:cracked_nether_bricks"
+      }
+    },
+    "used_red_nether_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:red_nether_bricks"
+      }
+    },
+    "used_prismarine_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:prismarine_bricks"
+      }
+    },
+    "used_quartz_bricks": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:quartz_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_bricks",
+      "used_stone_bricks",
+      "used_deepslate_bricks",
+      "used_cracked_deepslate_bricks",
+      "used_cracked_stone_bricks",
+      "used_endstone_bricks",
+      "used_mud_bricks",
+      "used_nether_bricks",
+      "used_cracked_nether_bricks",
+      "used_red_nether_bricks",
+      "used_prismarine_bricks",
+      "used_quartz_bricks"
+    ]
+  ]
+}

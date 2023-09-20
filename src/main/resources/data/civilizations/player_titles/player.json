@@ -1,0 +1,5 @@
+{
+  "name": "Player",
+  "requires": "civilizations:civs/root",
+  "color": "#FFFFFF"
+}
